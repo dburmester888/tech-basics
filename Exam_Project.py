@@ -8,8 +8,8 @@ import numpy as np
 api = openfoodfacts.API(user_agent="MyAwesomeApp/1.0")
    
 # Seitentitel
-st.title("VeGluttony")
-st.header("Be gluttonous, but responsibly")
+st.title("VEGANSCAN")
+st.header("IS IT VEGAN OR NOT?")
 st.divider()
 
 # Aufteilung
