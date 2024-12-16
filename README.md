@@ -1,1 +1,1 @@
-# tech-basics
+# tech-basics von Denise
