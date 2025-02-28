@@ -10,9 +10,7 @@ import openfoodfacts
 api = openfoodfacts.API(user_agent="veganscan/1.0")
 
 # Main Title
-st.title("VEGANSCAN")
-st.header("IS IT VEGAN OR NOT?")
-st.divider()
+st.image("./VeganornotBanner.png")
 
 # Create state if it not exists
 if 'remember_list' not in st.session_state:
@@ -23,6 +21,7 @@ if 'remember_list' not in st.session_state:
 def input_elements():
     barcode = None
     image_input = st.camera_input("Scan a Barcode")
+    st.write("For best results: Please place the barcode as close as possible")
 
     if image_input is not None:
         # Read barcode from camera image
